@@ -1,62 +1,60 @@
-/* Reset & Base Styles */
-* {
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Segoe UI', sans-serif;
-  line-height: 1.6;
   background-color: #f9f9f9;
   color: #333;
-  padding: 20px;
 }
 
-/* Header */
 header {
   text-align: center;
-  margin-bottom: 30px;
-}
-h1 {
-  font-size: 2rem;
-  color: #2c3e50;
-}
-.intro {
-  font-size: 1rem;
-  color: #555;
-  margin-top: 10px;
+  padding: 2rem 1rem;
+  background-color: #e0f7fa;
+  border-bottom: 2px solid #b2ebf2;
 }
 
-/* Gallery Section */
+h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.intro {
+  font-size: 1.1rem;
+  color: #555;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  padding: 10px;
+  gap: 2rem;
+  padding: 2rem;
 }
+
 figure {
-  background: #fff;
+  background-color: #fff;
   border: 1px solid #ddd;
-  padding: 10px;
+  padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-}
-figcaption {
-  margin-top: 8px;
-  font-size: 0.9rem;
-  color: #666;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   text-align: center;
 }
 
-/* Footer */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
 footer {
   text-align: center;
-  margin-top: 40px;
-  font-size: 0.8rem;
-  color: #999;
+  padding: 1rem;
+  background-color: #eceff1;
+  font-size: 0.9rem;
+  color: #777;
 }
